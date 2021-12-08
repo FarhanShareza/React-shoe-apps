@@ -1,0 +1,50 @@
+.footer{
+    background-color: #111;
+    color: white;
+    padding: 25px;
+    
+    .box-logo{
+        border-left: 2px solid rgb(255, 81, 0);
+    }
+    .t-logo{
+        font-size: 30px;
+        margin: 0px 20px 0px 20px;
+        text-align: left;
+        color: white;
+    }
+    .t-sub-logo{
+        font-size: 12px;
+        margin: 0px 20px 0px 20px;
+    }
+    .box-support{
+        border-left: 2px solid rgb(255, 81, 0);
+    }
+    .t-support{
+        font-size: 18px;
+        font-weight: bold;
+        margin: 0px 20px 0px 20px;
+        color: white;
+    }
+    .t-sub-support{
+        font-size: 14px;
+        margin: 0px 20px 0px 20px;
+        color: white;
+    }
+    .box-sosial-media{
+        border-left: 2px solid rgb(255, 81, 0);
+    }
+    .t-sosial-media{
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        margin: 0px 20px 0px 20px;
+    }
+    .box-copyright{
+        border-top: 1px solid rgb(48, 48, 48);
+    }
+    .t-copyright{
+        font-size: 10px;
+        text-align: center;
+    }
+}
+
