@@ -1,33 +1,17 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Carousel from 'react-bootstrap/Carousel'
+import './carousel.scss'
 
 const Slide = () => {
     return (
-        <div>
+        <div className="slideShow">
             <Carousel fade>
                 <Carousel.Item>
-                    <img
-                    className="d-block w-100"
-                    src="https://images.tokopedia.net/img/cache/1208/NsjrJu/2021/7/30/74d32a7f-6a2d-49a3-b325-114de4b055c5.jpg.webp?ect=3g"
-                    alt="First slide"
-                    />
-                    <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                    </Carousel.Caption>
+                    <img className="d-block w-100 img-slideShow" src="https://akcdn.detik.net.id/community/media/visual/2021/06/17/wallpaper-windows-11-1.jpeg?w=750&q=90" alt="First slide"/>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img
-                    className="d-block w-100"
-                    src="https://images.tokopedia.net/img/cache/1208/NsjrJu/2021/12/7/e4a313c4-4851-4eb5-a271-75768ab0498a.jpg.webp?ect=3g"
-                    alt="Second slide"
-                    />
-
-                    <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </Carousel.Caption>
+                    <img className="d-block w-100 img-slideShow" src="https://akcdn.detik.net.id/community/media/visual/2021/06/17/wallpaper-windows-11.jpeg?w=750&q=90" alt="Second slide"/>
                 </Carousel.Item>
             </Carousel>
         </div>
