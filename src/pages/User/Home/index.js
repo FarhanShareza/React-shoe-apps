@@ -1,9 +1,11 @@
 import React from 'react'
+import { Gap } from '../../../components'
+import { Slide } from '../../../components/molecules'
 
 const Home = () => {
     return (
         <div>
-            <p>Page Home</p>
+            <Slide/>
         </div>
     )
 }

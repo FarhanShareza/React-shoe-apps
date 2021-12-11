@@ -1,0 +1,92 @@
+.logo-upkeep{
+    width: 15%;
+}
+
+.navbar-dark .navbar-toggler {
+    color: black;
+    border-color: black;
+    padding-top:8px;
+}
+.navbar-toggler-icon {
+    width: 20px;
+}
+.navbar-brand{
+    font-weight: bold;
+}
+.side-logo{
+    font-weight: bold;
+}
+.nav-navbar{
+    font-size: 20px;
+    flex-direction: row-reverse;
+}
+.icon-nav-navbar{
+    font-size: 20px;
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    justify-content:right;
+}
+.me-auto {
+    margin-left: auto!important;
+    margin-right: 0px !important;
+}
+
+.box-profile{
+    background-color: white;
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid rgb(141, 141, 141);
+}
+
+.box-profile-left{
+    width: 30%;
+    float: left;
+}
+.profile-user{
+    width: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.box-profile-right{
+    width: 70%;
+    float: right;
+}
+
+.t-profile-name{
+    font-weight: bold;
+}
+
+.t-profile-member{
+    font-size: 12px;
+}
+.box-activities .box-information .box-bantuan{
+    width: 100%;
+    margin: 20px 0px 10px 0px;
+}
+
+.t-activities{
+    font-weight: 700;
+}
+
+.t-sub-activities{
+    font-size: 14px;
+    height: 30px;
+}
+
+.t-left{
+    float: left;
+    font-size: 18px;
+    padding-right: 10px;
+}
+
+.t-right{
+    padding: 5px 0px 5px 0px;
+}
+
+@media screen and (min-width: 992px) {
+    .container {
+        width: 992px;
+    }
+  }
