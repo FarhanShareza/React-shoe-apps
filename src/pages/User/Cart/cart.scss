@@ -1,0 +1,77 @@
+.border-bottom{
+    color: black;
+    border-bottom: 1px solid rgb(110, 110, 110) !important;
+}
+.cart-product{
+    height: 100%;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
+    border: 1px solid rgb(226, 226, 226) !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.t-delete{
+    float: right;
+    font-size: 12px;
+    font-weight: 500;
+    align-items: center;
+    padding: 5px;
+}
+
+.box-product-left{
+    float: left;
+    height: 100%;
+    border-radius: 10px;
+    padding: 10px;
+}
+.img-product-left{
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+}
+.box-prduct-right{
+    width: 100%;
+    padding: 10px;
+}
+.remove-btm{
+    margin-bottom: 0px;
+}
+.price-btm{
+    position: absolute;
+}
+.box-prduct-action{
+    float: right;
+    margin: 10px;
+}
+.inp-quantity{
+    font-size: 10px;
+    float: right;
+    border-radius: 10px;
+}
+.right-action{
+    float: right;
+}
+.left-action{
+    float: left;
+    font-size: 10px;
+    margin-top: 3px;
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: 1px solid grey;
+}
+.t-price-cart{
+    font-size: 12px;
+    margin:10px;
+}
+.price-cart{
+    font-size: 14px;
+    margin:10px;
+    font-weight: bold;
+}
+.btn-price-cart{
+    margin: 10px;
+    .button{
+        border-radius: 30px;
+    }
+}

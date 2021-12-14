@@ -5,6 +5,11 @@
         flex: 1;
     }
 }
+.header-wrapper{
+    position:fixed;
+    z-index: 99; 
+    width:100%;
+}
 @media screen and (max-width: 992px) {
     .content-wrapper{
         width: 100%;
@@ -13,7 +18,7 @@
 }
 @media screen and (min-width: 992px) {
     .content-wrapper{
-        width: 70%;
+        width: 60%;
         margin: 0 auto;
     }
 }

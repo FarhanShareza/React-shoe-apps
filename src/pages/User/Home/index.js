@@ -1,6 +1,6 @@
 import React from 'react'
 import { Gap } from '../../../components'
-import { MenuService, Slide } from '../../../components/molecules'
+import { MenuService, Product, Slide, SlideTimer } from '../../../components/molecules'
 
 const Home = () => {
     return (
@@ -9,8 +9,15 @@ const Home = () => {
                 <Slide/>
             </div>
             <div>
+                <SlideTimer/>
+            </div>
+            <div>
                 <MenuService/>
             </div>
+            <div>
+                <Product/>
+            </div>
+            <Gap height={25}/>
         </div>
     )
 }

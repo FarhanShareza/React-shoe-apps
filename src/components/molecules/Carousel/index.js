@@ -8,10 +8,10 @@ const Slide = () => {
         <div className="slideShow">
             <Carousel fade>
                 <Carousel.Item>
-                    <img className="d-block w-100 img-slideShow" src="https://akcdn.detik.net.id/community/media/visual/2021/06/17/wallpaper-windows-11-1.jpeg?w=750&q=90" alt="First slide"/>
+                    <img className="d-block w-100 img-slideShow" src="https://images.tokopedia.net/img/cache/1190/wmEwCC/2021/12/8/ea615fa3-cafe-4127-b342-424818fc0e1a.jpg.webp?ect=4g" alt="First slide"/>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img className="d-block w-100 img-slideShow" src="https://akcdn.detik.net.id/community/media/visual/2021/06/17/wallpaper-windows-11.jpeg?w=750&q=90" alt="Second slide"/>
+                    <img className="d-block w-100 img-slideShow" src="https://images.tokopedia.net/img/cache/500/coCfvv/2021/12/9/8a7db136-d328-4cb8-b31b-83c5b441fb75.jpg" alt="Second slide"/>
                 </Carousel.Item>
             </Carousel>
         </div>

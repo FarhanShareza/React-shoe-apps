@@ -1,0 +1,149 @@
+.t-link-address{
+    float: right;
+    font-size: 12px;
+    font-weight: 500;
+    align-items: center;
+    color: orangered;
+}
+.box-checkout{
+    height: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
+    border: 1px solid rgb(226, 226, 226) !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.t-address-main{
+    font-size: 12px;
+    font-weight: bold;
+}
+.t-address-active{
+    color: red;
+    background-color: pink;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 400;
+}
+.t-address-name{
+    font-size: 10px;
+}
+.t-address-address{
+    font-size: 10px;
+}
+.t-price-checkout{
+    font-size: 14px;
+    font-weight: bold;
+}
+.t-label{
+    padding: 10px;
+}
+.t-label-upkeep{
+    font-size: 10px;
+    font-weight: bold;
+}
+.t-label-city{
+    font-size: 10px;
+    font-weight: 400;
+}
+.box-shipment{
+    background-color: white;
+    font-size: 12px;
+    height: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid rgb(200, 200, 200) !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.btn-shipment{
+    background-color: white;
+    width: 100%;
+    border: 0px;
+    font-weight: 600;
+    text-align: left;
+}
+.t-subtotal{
+    padding: 10px;
+}
+.t-sub-subtotal{
+    font-size: 12px;
+    margin-left: 5px;
+}
+.t-subtotal-price{
+    float: right;
+    margin-right: 5px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.box-description{
+    height: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
+    border: 1px solid rgb(226, 226, 226) !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.t-description{
+    padding: 5px;
+}
+.t-description-price{
+    float: right;
+    font-size: 10px;
+}
+.t-sub-description{
+    font-size: 10px;
+}
+.t-main-description{
+    font-size: 12px;
+    font-weight: 600;
+}
+.box-payment{
+    background-color: white;
+    font-size: 12px;
+    height: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid rgb(200, 200, 200) !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.btn-payment{
+    background-color: white;
+    width: 100%;
+    border: 0px;
+    font-weight: 600;
+    text-align: left;
+}
+.t-billing{
+    font-size: 12px;
+    padding: 5px;
+}
+.t-sub-billing{
+    font-weight: bold;
+}
+.t-price-billing{
+    font-weight: 600;
+    color: orangered;
+}
+.t-address-master{
+    font-size: 12px;
+    font-weight: bold;
+}
+.address-border-bottom{
+    border-bottom: 1px solid rgb(224, 224, 224) !important;
+    margin-bottom: 10px;
+}
+.shipment-selection{
+    margin: 15px;
+}
+.voucher-selection{
+    margin: 5px;
+}

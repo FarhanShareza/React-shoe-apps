@@ -16,7 +16,7 @@ import { Profileuser } from '../../../assets';
 
 const Header = () => {
     return (
-        <div>
+        <div className="index-header">
             <Navbar bg="black" variant="dark" expand={false}>
                 <Container>
                     <Navbar.Brand href="#">UPKEEP</Navbar.Brand>
