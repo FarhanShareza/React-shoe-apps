@@ -6,9 +6,6 @@ import './menuService.scss'
 const MenuService = () => {
     return (
         <div className="menu-service">
-            <div className="box-teks">
-                <p className="t-h6">Berdasarkan Kategori</p>
-            </div>
             <div className="sub-menu-service">
                 <Row>
                     <Col ms={6}>

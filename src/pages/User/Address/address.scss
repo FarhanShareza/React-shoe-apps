@@ -1,0 +1,50 @@
+.box-address{
+    height: 100%;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
+    border: 1px solid rgb(226, 226, 226) !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-left: 3px solid orange !important;
+}
+.t-size-12{
+    font-size: 12px;
+}
+.box-btn-address{
+    margin: 10px 0px 0px 0px;
+}
+.btn-address{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px;
+    width: 90%;
+    border: 1px solid rgb(100, 100, 100) !important;
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: none;
+    color: black;
+    cursor: pointer;
+}
+.btn-address:hover{
+    background-color: white;
+    padding: 5px;
+    color: rgb(255, 102, 0);
+    border: 1px solid rgb(255, 102, 0) !important;
+    transition-duration: 1s;
+}
+.t-utama{
+    background-color: lightgrey;
+    font-weight: 500;
+    padding: 2px 10px 2px 10px;
+    border-radius: 10px;
+}
+.t-add-address{
+    float: right;
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: 5px;
+    color: rgb(255, 115, 0);
+}

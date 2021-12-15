@@ -12,9 +12,15 @@ const Home = () => {
                 <SlideTimer/>
             </div>
             <div>
+                <div className="box-teks">
+                    <p className="t-h6">Berdasarkan Kategori</p>
+                </div>
                 <MenuService/>
             </div>
             <div>
+                <div className="box-teks">
+                    <p className="t-h6">Pilihan Buat Kamu</p>
+                </div>
                 <Product/>
             </div>
             <Gap height={25}/>

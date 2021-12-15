@@ -1,0 +1,94 @@
+.box-transaction{
+    height: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
+    border: 1px solid rgb(226, 226, 226) !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.box-transaction-product{
+    padding-bottom: 10px;
+}
+.t-transaction-main{
+    font-size: 12px;
+    font-weight: bold;
+}
+.t-status-transaction{
+    float: right;
+    background-color: lightgreen;
+    color: rgb(0, 66, 0);
+    font-weight: 500;
+    padding: 5px;
+    font-size: 10px;
+    border-radius: 10px;
+}
+.t-date-transaction{
+    font-size: 10px;
+}
+.rmv-padding{
+    padding: 0px;
+}
+.t-sub-transaction-main{
+    font-size: 10px;
+}
+.t-sub-price-transaction{
+    font-size: 12px;
+    font-weight: bold;
+}
+.box-btn-detail{
+    .button{
+        margin-top: 10px;
+        float: right;
+        padding: 5px;
+        font-size: 12px;
+        border: 2px solid rgb(255, 102, 0);
+        background-color: rgb(255, 102, 0);
+        width: 50%;
+        box-sizing: border-box;
+        border-radius: 3px;
+        border: none;
+        color: white;
+        cursor: pointer;
+    } 
+    .button:hover{
+        background-color: white;
+        padding: 5px;
+        color: rgb(255, 102, 0);
+        border: 2px solid rgb(255, 102, 0);
+        transition-duration: 1s;
+    }
+}
+.box-transaction-product{
+    .box-product-left{
+        width: 50px;
+        height: 50px;
+    }
+    .img-product-left{
+        width: 50px;
+        height: 50px;
+    }
+}
+.box-prduct-right{
+    .t-product-right{
+        font-size: 12px;
+    }
+}
+.box-transaction-d{
+    height: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+    border: 1px solid rgb(226, 226, 226) !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    .box-product-left{
+        width: 50px;
+        height: 50px;
+    }
+    .img-product-left{
+        width: 50px;
+        height: 50px;
+    }
+}

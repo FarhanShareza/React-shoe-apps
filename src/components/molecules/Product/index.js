@@ -5,9 +5,6 @@ import { Row, Col } from 'react-bootstrap'
 const Product = () => {
     return (
         <div>
-            <div className="box-teks">
-                <p className="t-h6">Pilihan Buat Kamu</p>
-            </div>
             <div className="sub-menu-service">
                 <Row>
                     <Col xs={6} sm={3} md={3}>
