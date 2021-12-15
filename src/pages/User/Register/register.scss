@@ -24,7 +24,6 @@
     height: 35px;
     margin: 0 auto;
 }
-
 .center{
     width: 600px;
     background-color: white;
@@ -68,4 +67,12 @@
         float:right;
         width: 47.5%;
     }
+}
+
+@media screen and (max-width: 600px) {
+    .center {
+        .box-center {
+            width: 100%;
+        }
+    } 
 }

@@ -1,17 +1,16 @@
 import React from 'react'
-import { Navbar, Container, Nav, NavDropdown, Offcanvas, FormControl, Form, Button } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './header.scss'
 import { Gap } from '../..';
 import { GoFile } from 'react-icons/go';
 import { CgProfile } from 'react-icons/cg';
-import { MdOutlinePrivacyTip } from 'react-icons/md';
+import { Navbar, Container, Nav, Offcanvas } from 'react-bootstrap';
 import { AiOutlineQuestionCircle } from 'react-icons/ai';
 import { BsFileEarmarkText } from 'react-icons/bs';
 import { VscLock } from 'react-icons/vsc';
 import { RiCustomerService2Line } from 'react-icons/ri';
 import { IoInformationCircleOutline, IoLogOutOutline, IoCartOutline, IoNotificationsOutline} from 'react-icons/io5'
 import { Profileuser } from '../../../assets';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './header.scss'
 
 
 const Header = () => {

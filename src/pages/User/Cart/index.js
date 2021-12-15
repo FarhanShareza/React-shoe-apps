@@ -1,6 +1,6 @@
 import React from 'react'
-import { Button, Gap, Input, InputColloum } from '../../../components'
-import { RiDeleteBin6Line, RiTimer2Line} from 'react-icons/ri'
+import { Button, Gap, InputColloum } from '../../../components'
+import { RiDeleteBin6Line } from 'react-icons/ri'
 import { Container, Row, Col} from 'react-bootstrap'
 import './cart.scss'
 

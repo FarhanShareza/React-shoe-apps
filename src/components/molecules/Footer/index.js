@@ -1,9 +1,9 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap';
+import { Gap } from '../..';
+import { AiOutlineFacebook, AiOutlineInstagram, AiOutlineWhatsApp } from 'react-icons/ai';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './footer.scss'
-import { Gap } from '../..';
-import { AiOutlineFacebook, AiOutlineInstagram, AiOutlineWhatsApp, AiOutlineYoutube } from 'react-icons/ai';
 
 const Footer = () => {
     return (

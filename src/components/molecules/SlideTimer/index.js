@@ -1,6 +1,6 @@
 import React from 'react'
 import './slideTimer.scss'
-import {RiTimer2Line} from 'react-icons/ri'
+import { RiTimer2Line } from 'react-icons/ri'
 import { Row, Col } from 'react-bootstrap'
 
 const SlideTimer = () => {

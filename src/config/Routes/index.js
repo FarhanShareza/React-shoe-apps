@@ -1,14 +1,11 @@
 import React from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import { Cart, ChangePassword, Login, MainApp, Register, RequesPassword } from '../../pages/User'
+import { Login, Register, MainApp, ChangePassword, RequesPassword } from '../../pages/User'
 
 const Routes = () => {
     return (
         <Router>
             <Switch>
-                <Route path="/">
-                    <MainApp/>
-                </Route>
                 <Route path="/login">
                     <Login/>
                 </Route>
@@ -20,6 +17,9 @@ const Routes = () => {
                 </Route>
                 <Route path="/change-password">
                     <ChangePassword/>
+                </Route>
+                <Route path="/">
+                    <MainApp/>
                 </Route>
             </Switch>
         </Router>

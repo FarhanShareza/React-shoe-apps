@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Gap, Input, Link } from '../../../components'
+import { Button, Gap, Input } from '../../../components'
 import './requesPassword.scss'
 
 const RequesPassword = () => {

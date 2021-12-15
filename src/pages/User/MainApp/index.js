@@ -16,29 +16,29 @@ const MainApp = () => {
             <div className="content-wrapper">
                 <Router>
                     <Switch>
-                        <Route path="/user/address">
-                            <Address />
+                        <Route path="/user/category">
+                            <Category />
+                        </Route>
+                        <Route path="/user/cart">
+                            <Cart />
+                        </Route>
+                        <Route path="/user/checkout">
+                            <Checkout />
+                        </Route>
+                        <Route path="/user/transaction">
+                            <Transaction />
+                        </Route>
+                        <Route path="/user/transaction-detail">
+                            <TransactionDetail />
                         </Route>
                         <Route path="/user/change-password">
                             <ChangePasswordLog />
                         </Route>
-                        <Route path="/account">
+                        <Route path="/user/account">
                             <Account />
                         </Route>
-                        <Route path="/category">
-                            <Category />
-                        </Route>
-                        <Route path="/cart">
-                            <Cart />
-                        </Route>
-                        <Route path="/checkout">
-                            <Checkout />
-                        </Route>
-                        <Route path="/transaction">
-                            <Transaction />
-                        </Route>
-                        <Route path="/transaction-detail">
-                            <TransactionDetail />
+                        <Route path="/user/address">
+                            <Address />
                         </Route>
                         <Route path="/">
                             <Home />
