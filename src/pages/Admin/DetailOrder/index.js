@@ -3,9 +3,10 @@ import { Button, Gap } from '../../../components'
 import { Row, Col} from 'react-bootstrap'
 import './detailOrder.scss'
 
-const TransactionDetail = () => {
+const DetailOrder = () => {
     return (
         <div className="box-transaction-detail-main">
+            <Gap height={60}/>
             <div className="box-teks border-bottom">
                 <p className="t-h6">Detail Pesanan<span className="t-status-right t-status-transaction">Menunggu Konfirmasi</span></p>
             </div>
@@ -87,4 +88,4 @@ const TransactionDetail = () => {
     )
 }
 
-export default TransactionDetail
+export default DetailOrder

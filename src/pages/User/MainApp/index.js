@@ -1,7 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import { Account, Address, Category, ChangePasswordLog, Checkout, Home, Transaction, TransactionDetail } from '..'
-import { Cart } from '..'
+import { Account, Address, Category, ChangePasswordLog, Checkout, Home, Transaction, TransactionDetail, Cart } from '..'
 import { Gap } from '../../../components'
 import { Footer, Header } from '../../../components/molecules'
 import './mainApp.scss'

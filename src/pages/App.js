@@ -1,9 +1,9 @@
-import { RoutesAdmin } from '../config';
+import { Routes } from '../config';
 import './App.css';
 
 function App() {
   return (
-    <RoutesAdmin/>
+    <Routes/>
   );
 }
 

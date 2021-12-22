@@ -1,5 +1,3 @@
-import RoutesUser from "./RoutesUser";
-import RoutesAdmin from "./RoutesAdmin";
-import RoutesCourier from "./RoutesCourier";
+import Routes from "./Routes";
 
-export {RoutesUser, RoutesAdmin, RoutesCourier}
+export { Routes }

@@ -1,10 +1,9 @@
 import React from 'react'
-import './footer.scss'
 
 const Footer = () => {
     return (
         <div>
-            AAA
+            <p>© 2021 Upkeep, Inc. All Rights Reserved</p>
         </div>
     )
 }

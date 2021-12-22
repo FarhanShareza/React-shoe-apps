@@ -1,12 +1,9 @@
 import React from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { DetailOrder, OrderConfirm, OrderReturn, OrderPickup } from '..'
 import { Gap } from '../../../components'
-import Header from '../../../components/molecules/Admin/Header'
-import DetailOrder from '../DetailOrder'
-import OrderConfirm from '../OrderConfirm'
-import OrderPickup from '../OrderPickup'
-import OrderReturn from '../OrderReturn'
-
+import Footer from '../../../components/molecules/Courier/Footer'
+import Header from '../../../components/molecules/Courier/Header'
 import './mainAppCourier.scss'
 
 const MainAppCourier = () => {
@@ -19,20 +16,24 @@ const MainAppCourier = () => {
             <div className="content-wrapper">
                 <Router>
                     <Switch>
-                        <Route path="/confirm-order">
-                            <OrderConfirm />
-                        </Route>
-                        <Route path="/detail-order">
+                        <Route path="/courier/detail-order">
                             <DetailOrder />
                         </Route>
-                        <Route path="/pickup-order">
+                        <Route path="/courier/pickup-order">
                             <OrderPickup />
                         </Route>
-                        <Route path="/return-order">
+                        <Route path="/courier/return-order">
                             <OrderReturn />
+                        </Route>
+                        <Route path="/courier">
+                            <OrderConfirm />
                         </Route>
                     </Switch>
                 </Router>
+            </div>
+            <Gap height={25}/>
+            <div className="footer-wrapper">
+                <Footer/>
             </div>
         </div>
     )

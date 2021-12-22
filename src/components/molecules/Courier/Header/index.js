@@ -8,17 +8,17 @@ const Header = () => {
         <div>
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Container>
-                <Navbar.Brand href="#home">UPKEEP</Navbar.Brand>
+                <Navbar.Brand href="/courier">UPKEEP</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
-                    <Nav.Link href="/confirm-order">Confirm Order</Nav.Link>
-                    <Nav.Link href="/pickup-order">Pickup</Nav.Link>
-                    <Nav.Link href="/return-order">Return</Nav.Link>
+                    <Nav.Link href="/courier/confirm-order">Confirm Order</Nav.Link>
+                    <Nav.Link href="/courier/pickup-order">Pickup Order</Nav.Link>
+                    <Nav.Link href="/courier/return-order">Return</Nav.Link>
                     </Nav>
                     <Nav>
                     <NavDropdown title="Hi, Farhan Syahreza" id="collasible-nav-dropdown">
-                        <NavDropdown.Item href="#action/3.4">Log Out</NavDropdown.Item>
+                        <NavDropdown.Item href="/courier/logout">Log Out</NavDropdown.Item>
                     </NavDropdown>
                     </Nav>
                 </Navbar.Collapse>

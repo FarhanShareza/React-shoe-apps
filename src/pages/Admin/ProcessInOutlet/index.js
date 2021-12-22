@@ -1,34 +1,38 @@
 import React from 'react'
 import { Row, Col } from 'react-bootstrap'
 import { Button, Gap } from '../../../components'
+import './processInOutlet.scss'
 
-import './orderConfirm.scss'
-
-const OrderConfirm = () => {
+const ProcessInOutlet = () => {
     return (
-        <div className="transaction-main">
+        <div className="">
+            <Gap height={55}/>
             <div className="box-teks border-bottom">
-                <p className="t-h6">Confirm Order</p>
+                <p className="t-h6">Order On Process</p>
             </div>
             <div className="box-transaction">
                 <div className="address-border-bottom">
-                    <p className="remove-btm t-transaction-main">Service<span className="t-status-transaction">Menunggu Konfirmasi</span></p>
+                    <p className="remove-btm t-transaction-main">Service<span className="t-status-transaction">In Outlet</span></p>
                     <p className="t-date-transaction">3 Desember 2021</p>
                 </div>
                 <div className="box-transaction-d address-border-bottom">
-                    <Row>
-                        <Col xs={2} sm={1} md={1}>
-                            <div className="box-product-left rmv-padding">
-                                <img className="img-product-left" src="https://images.tokopedia.net/img/cache/500-square/product-1/2020/8/10/19826517/19826517_45c76ba2-84ee-4d3a-bcbe-fa401439151d_1280_1280.webp?ect=4g" alt="product"/>
-                            </div>
-                        </Col>
-                        <Col xs={10} sm={11} md={11}>
-                            <div className="box-product-right">
-                                <p className="t-product-right remove-btm">Deep Cleaning Shoes For Man</p>
-                                <p className="t-duration remove-btm">Quantity 1</p>
-                            </div>
-                        </Col>
-                    </Row>
+                    <p className="t-transaction-product border-bottom-grey">Info Product</p>
+                    <div className="">
+                        <Row>
+                            <Col xs={4} sm={4} md={4}>
+                                <div className="t-sub-shipment">
+                                    <p>Invoice</p>
+                                    <p className="remove-btm">Quantity</p>
+                                </div>
+                            </Col>
+                            <Col xs={8} sm={8} md={8}>
+                                <div className="t-sub-shipment">
+                                    <p>INV/2021/SRC/2021/2211</p>
+                                    <p className="quantity-product remove-btm">3 Packs</p>
+                                </div>
+                            </Col>
+                        </Row>
+                    </div>
                 </div>
                 <div className="box-transaction-btm">
                     <Row>
@@ -40,7 +44,7 @@ const OrderConfirm = () => {
                         </Col>
                         <Col xs={4} sm={3} md={3}>
                             <div className="box-btn-detail-white">
-                                <Button title="Konfirmasi"/>
+                                <Button title="Go Cleanning"/>
                             </div>
                         </Col>
                         <Col xs={4} sm={3} md={3}>
@@ -55,4 +59,4 @@ const OrderConfirm = () => {
     )
 }
 
-export default OrderConfirm
+export default ProcessInOutlet
