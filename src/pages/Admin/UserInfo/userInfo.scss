@@ -1,0 +1,63 @@
+.box-admin-table{
+    height: 100%;
+    border-radius: 10px;
+    margin-left: 20px;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
+    border: 1px solid rgb(226, 226, 226) !important;
+    background-color: white;
+    margin-bottom: 30px;
+}
+.box-admin-table-main{
+    height: 50px;
+    border-left: 4px solid lightseagreen !important;
+    background-color: #f8f9fc;
+    border-radius: 10px 10px 0px 0px;
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+    font-weight: bold;
+    color: blue;
+    padding-left: 26px;
+    margin-bottom: 30px;
+}
+.box-admin-table-sub{
+    margin: 10px 30px 0px 30px;
+    background-color: white;
+    padding: 0px;
+}
+.table{
+    font-size: 12px;
+}
+
+.pagination {
+    font-size: 10px;
+    justify-content: flex-end;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: lightblue;
+    border-color: lightblue;
+    font-size: 10px;
+    padding: 0px 5px 0px 5px;
+    margin-right: 10px;
+}
+
+.react-bootstrap-table-pagination-total{
+    font-size: 10px;
+}
+.table>:not(caption)>*>* {
+    padding: 0.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .react-bootstrap-table-pagination-total{
+        font-size: 10px;
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 10px;
+    }
+    .box-admin-table{
+        margin-left: 0px;
+    }
+}

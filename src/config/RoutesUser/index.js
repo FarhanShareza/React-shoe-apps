@@ -2,7 +2,7 @@ import React from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import { Login, Register, MainApp, ChangePassword, RequesPassword } from '../../pages/User'
 
-const Routes = () => {
+const RoutesUser = () => {
     return (
         <Router>
             <Switch>
@@ -26,4 +26,4 @@ const Routes = () => {
     )
 }
 
-export default Routes
+export default RoutesUser

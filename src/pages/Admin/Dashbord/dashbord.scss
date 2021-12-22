@@ -1,0 +1,38 @@
+.box-admin{
+    height: 80px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
+    border: 1px solid rgb(226, 226, 226) !important;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: white;
+}
+.box-position-left{
+    float: left;
+    width: 90%;
+}
+.box-position-right{
+    float: right;
+    width: 10%;
+    margin-right: 10px;
+}
+.icon-dashbord{
+    font-size: 25px;
+    color: orange;
+}
+.t-bold-12{
+    font-size: 12px;
+    font-weight: 500;
+}
+.border-left{
+    border-left: 4px solid orangered !important;
+}
+.t-box-admin{
+    font-weight: bold;
+    margin-left: 20px;
+    border-bottom: 1px solid rgb(199, 199, 199) !important;
+    margin-bottom: 10px;
+}
