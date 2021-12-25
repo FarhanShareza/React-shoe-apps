@@ -11,3 +11,34 @@
         font-size: 12px;
     }
 }
+
+.btn-detail{
+    display: flex;
+    justify-content: center;
+}
+.btn-detail-table{
+    font-size: 10px;
+    margin-left: 3px;
+    margin-right: 3px;
+    background-color: orange;
+    border-radius: 5px;
+    border: 1px solid orange !important;
+    color: white;
+}
+.t-main-popup{
+    border-bottom: 1px solid lightgray !important;
+    text-align: left;
+    padding-bottom: 10px;
+}
+.t-sub-popup{
+    font-size: 12px;
+    text-align: left;
+    font-weight: bold;
+}
+.t-sub-sub-popup{
+    font-size: 10px;
+    text-align: left;
+}
+.box-popup{
+    margin-bottom: 10px;
+}
