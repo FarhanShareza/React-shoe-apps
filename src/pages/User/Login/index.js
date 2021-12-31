@@ -7,7 +7,7 @@ const Login = () => {
     return (
         <div className="main-page-login">
             <div className="center">
-                <Gap height={10}/>
+                <Gap height={30}/>
                 <div className="t-logo">UPKEEP</div>
                 <Gap height={20}/>
                 <div className="box-center">
