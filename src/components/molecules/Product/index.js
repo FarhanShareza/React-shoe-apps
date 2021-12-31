@@ -1,111 +1,24 @@
 import React from 'react'
 import './product.scss'
 import { Row, Col } from 'react-bootstrap'
+import {useHistory} from 'react-router-dom'
 
-const Product = () => {
+const Product = (props) => {
+    const history = useHistory();
+    const {image, nameProduct, duration, price, productId} = props;
     return (
-        <div>
-            <div className="sub-menu-service">
-                <Row>
-                    <Col xs={6} sm={3} md={3}>
-                        <div className="box-product">
-                            <div className="img-box-product">
-                                <img className="img-product" src="https://images.tokopedia.net/img/cache/500-square/product-1/2020/8/10/19826517/19826517_45c76ba2-84ee-4d3a-bcbe-fa401439151d_1280_1280.webp?ect=4g" alt="product"/>
-                            </div>
-                            <div className="text-box-product">
-                                <p className="t-name-product">Deep Cleaning Shoes Mens</p>
-                                <p className="t-duration">Durasi <span className="t-sub-duration">3 Hari</span></p>
-                                <p className="t-price">Rp 35000</p>
-                            </div>
-                        </div>
-                    </Col>
-                    <Col xs={6} sm={3} md={3}>
-                        <div className="box-product">
-                            <div className="img-box-product">
-                                <img className="img-product" src="https://images.tokopedia.net/img/cache/500-square/product-1/2020/8/10/19826517/19826517_45c76ba2-84ee-4d3a-bcbe-fa401439151d_1280_1280.webp?ect=4g" alt="product"/>
-                            </div>
-                            <div className="text-box-product">
-                                <p className="t-name-product">Deep Cleaning Shoes Mens</p>
-                                <p className="t-duration">Durasi <span className="t-sub-duration">3 Hari</span></p>
-                                <p className="t-price">Rp 35000</p>
-                            </div>
-                        </div>
-                    </Col>
-                    <Col xs={6} sm={3} md={3}>
-                        <div className="box-product">
-                            <div className="img-box-product">
-                                <img className="img-product" src="https://images.tokopedia.net/img/cache/500-square/product-1/2020/8/10/19826517/19826517_45c76ba2-84ee-4d3a-bcbe-fa401439151d_1280_1280.webp?ect=4g" alt="product"/>
-                            </div>
-                            <div className="text-box-product">
-                                <p className="t-name-product">Deep Cleaning Shoes Mens</p>
-                                <p className="t-duration">Durasi <span className="t-sub-duration">3 Hari</span></p>
-                                <p className="t-price">Rp 35000</p>
-                            </div>
-                        </div>
-                    </Col>
-                    <Col xs={6} sm={3} md={3}>
-                        <div className="box-product">
-                            <div className="img-box-product">
-                                <img className="img-product" src="https://images.tokopedia.net/img/cache/500-square/product-1/2020/8/10/19826517/19826517_45c76ba2-84ee-4d3a-bcbe-fa401439151d_1280_1280.webp?ect=4g" alt="product"/>
-                            </div>
-                            <div className="text-box-product">
-                                <p className="t-name-product">Deep Cleaning Shoes Mens</p>
-                                <p className="t-duration">Durasi <span className="t-sub-duration">3 Hari</span></p>
-                                <p className="t-price">Rp 35000</p>
-                            </div>
-                        </div>
-                    </Col>
-                    <Col xs={6} sm={3} md={3}>
-                        <div className="box-product">
-                            <div className="img-box-product">
-                                <img className="img-product" src="https://images.tokopedia.net/img/cache/500-square/product-1/2020/8/10/19826517/19826517_45c76ba2-84ee-4d3a-bcbe-fa401439151d_1280_1280.webp?ect=4g" alt="product"/>
-                            </div>
-                            <div className="text-box-product">
-                                <p className="t-name-product">Deep Cleaning Shoes Mens</p>
-                                <p className="t-duration">Durasi <span className="t-sub-duration">3 Hari</span></p>
-                                <p className="t-price">Rp 35000</p>
-                            </div>
-                        </div>
-                    </Col>
-                    <Col xs={6} sm={3} md={3}>
-                        <div className="box-product">
-                            <div className="img-box-product">
-                                <img className="img-product" src="https://images.tokopedia.net/img/cache/500-square/product-1/2020/8/10/19826517/19826517_45c76ba2-84ee-4d3a-bcbe-fa401439151d_1280_1280.webp?ect=4g" alt="product"/>
-                            </div>
-                            <div className="text-box-product">
-                                <p className="t-name-product">Deep Cleaning Shoes Mens</p>
-                                <p className="t-duration">Durasi <span className="t-sub-duration">3 Hari</span></p>
-                                <p className="t-price">Rp 35000</p>
-                            </div>
-                        </div>
-                    </Col>
-                    <Col xs={6} sm={3} md={3}>
-                        <div className="box-product">
-                            <div className="img-box-product">
-                                <img className="img-product" src="https://images.tokopedia.net/img/cache/500-square/product-1/2020/8/10/19826517/19826517_45c76ba2-84ee-4d3a-bcbe-fa401439151d_1280_1280.webp?ect=4g" alt="product"/>
-                            </div>
-                            <div className="text-box-product">
-                                <p className="t-name-product">Deep Cleaning Shoes Mens</p>
-                                <p className="t-duration">Durasi <span className="t-sub-duration">3 Hari</span></p>
-                                <p className="t-price">Rp 35000</p>
-                            </div>
-                        </div>
-                    </Col>
-                    <Col xs={6} sm={3} md={3}>
-                        <div className="box-product">
-                            <div className="img-box-product">
-                                <img className="img-product" src="https://images.tokopedia.net/img/cache/500-square/product-1/2020/8/10/19826517/19826517_45c76ba2-84ee-4d3a-bcbe-fa401439151d_1280_1280.webp?ect=4g" alt="product"/>
-                            </div>
-                            <div className="text-box-product">
-                                <p className="t-name-product">Deep Cleaning Shoes Mens</p>
-                                <p className="t-duration">Durasi <span className="t-sub-duration">3 Hari</span></p>
-                                <p className="t-price">Rp 35000</p>
-                            </div>
-                        </div>
-                    </Col>
-                </Row>
+        <Col xs={6} sm={3} md={3}>
+            <div className="box-product" onClick={() => history.push(`/user/detail-product/${productId}`)}>
+                <div className="img-box-product">
+                    <img className="img-product" src={image} alt="product"/>
+                </div>
+                <div className="text-box-product">
+                    <p className="t-name-product">{nameProduct}</p>
+                    <p className="t-duration">Durasi <span className="t-sub-duration">{duration} Hari</span></p>
+                    <p className="t-price">Rp {price}</p>
+                </div>
             </div>
-        </div>
+        </Col>
     )
 }
 

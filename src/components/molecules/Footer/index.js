@@ -57,7 +57,6 @@ const Footer = () => {
                                 <Gap height={15}/>
                                 <div className="t-copyright">
                                     <div>© 2021 Upkeep, Inc. All Rights Reserved</div>
-                                    <div>Desaign By Farhan</div>
                                 </div>
                             </div>
                         </Col>

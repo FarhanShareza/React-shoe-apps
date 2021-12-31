@@ -12,5 +12,6 @@ import Category from "./Category";
 import Account from "./Account";
 import ChangePasswordLog from "./ChangePasswordLog";
 import Address from "./Address";
+import ProductDetail from "./ProductDetail";
 
-export {Home, Login, Register, RequesPassword, ChangePassword, MainApp, Cart, Checkout, Transaction, TransactionDetail, Category, Account, ChangePasswordLog, Address}
+export {Home, Login, Register, RequesPassword, ChangePassword, MainApp, Cart, Checkout, Transaction, TransactionDetail, Category, Account, ChangePasswordLog, Address, ProductDetail}

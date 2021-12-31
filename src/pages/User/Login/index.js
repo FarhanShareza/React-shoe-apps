@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { Button, Gap, Input, Link } from '../../../components'
 import './login.scss'
+import Axios from 'axios'
 
 const Login = () => {
     return (

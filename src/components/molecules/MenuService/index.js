@@ -1,6 +1,7 @@
 import React from 'react'
 import { Row, Col } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Icon1, Icon5, Icon3, Icon4 } from '../../../assets';
 import './menuService.scss'
 
 const MenuService = () => {
@@ -10,13 +11,13 @@ const MenuService = () => {
                 <Row>
                     <Col ms={6}>
                         <div className="box-service">
-                            <img className="img-box-service" src="https://images.tokopedia.net/img/cache/500-square/product-1/2020/8/10/19826517/19826517_45c76ba2-84ee-4d3a-bcbe-fa401439151d_1280_1280.webp?ect=4g" alt=""/>
+                            <img className="img-box-service" src={Icon5} alt=""/>
                             <p className="t-box-service">MEN'S SHOES</p>
                         </div>
                     </Col>
                     <Col ms={6}>
                         <div className="box-service">
-                            <img className="img-box-service" src="https://images.tokopedia.net/img/cache/500-square/product-1/2020/8/10/19826517/19826517_45c76ba2-84ee-4d3a-bcbe-fa401439151d_1280_1280.webp?ect=4g" alt=""/>   
+                            <img className="img-box-service" src={Icon1} alt=""/>   
                             <p className="t-box-service">LADIES SHOES</p>
                         </div>
                     </Col>
@@ -24,13 +25,13 @@ const MenuService = () => {
                 <Row>
                     <Col>
                         <div className="box-service">
-                            <img className="img-box-service" src="https://images.tokopedia.net/img/cache/500-square/product-1/2020/8/10/19826517/19826517_45c76ba2-84ee-4d3a-bcbe-fa401439151d_1280_1280.webp?ect=4g" alt=""/>
+                            <img className="img-box-service" src={Icon4} alt=""/>
                             <p className="t-box-service">REPAINT</p>
                         </div>
                     </Col>
                     <Col>
                         <div className="box-service">
-                            <img className="img-box-service" src="https://images.tokopedia.net/img/cache/500-square/product-1/2020/8/10/19826517/19826517_45c76ba2-84ee-4d3a-bcbe-fa401439151d_1280_1280.webp?ect=4g" alt=""/>
+                            <img className="img-box-service" src={Icon3} alt=""/>
                             <p className="t-box-service">RE-GLUE</p>
                         </div>
                     </Col>

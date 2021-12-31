@@ -1,15 +1,15 @@
 import React from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import { Account, Address, Category, ChangePasswordLog, Checkout, Home, Transaction, TransactionDetail, Cart } from '..'
+import { Account, Address, Category, ChangePasswordLog, Checkout, Home, Transaction, TransactionDetail, Cart, ProductDetail } from '..'
 import { Gap } from '../../../components'
-import { Footer, Header } from '../../../components/molecules'
+import { Footer, HeaderLog } from '../../../components/molecules'
 import './mainApp.scss'
 
 const MainApp = () => {
     return (
         <div className="wrapper">
             <div className="header-wrapper">
-                <Header/>
+                <HeaderLog/>
             </div>
             <Gap height={35}/>
             <div className="content-wrapper">
@@ -20,6 +20,9 @@ const MainApp = () => {
                         </Route>
                         <Route path="/user/cart">
                             <Cart />
+                        </Route>
+                        <Route path="/user/detail-product/:productId">
+                            <ProductDetail />
                         </Route>
                         <Route path="/user/checkout">
                             <Checkout />
