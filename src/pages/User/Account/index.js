@@ -5,6 +5,7 @@ import { FaRegAddressBook } from 'react-icons/fa'
 import { RiLockPasswordLine, RiCustomerService2Line } from 'react-icons/ri'
 import { IoLogOutOutline } from 'react-icons/io5'
 import './account.scss'
+import { NavLink } from 'react-router-dom'
 
 const Account = () => {
     return (
@@ -34,9 +35,9 @@ const Account = () => {
                     <p className="t-name-account remove-btm">Pengarutan Akun</p>
                 </div>
                 <div className="box-sub-setting">
-                    <p className="t-account"><FaRegAddressBook/> Daftar Alamat</p>
-                    <p className="t-account"><RiLockPasswordLine/> bah Kata Sandi</p>
-                    <p className="t-account"><IoLogOutOutline/> Keluar</p>
+                    <p className="t-account rmv"><FaRegAddressBook/><span><NavLink to="/user/address" className="rmv"> Daftar Alamat</NavLink></span></p>
+                    <p className="t-account rmv"><RiLockPasswordLine/><span><NavLink to="/user/change-password" className="rmv"> Ubah Kata Sandi</NavLink></span></p>
+                    <p className="t-account rmv"><IoLogOutOutline/><span><NavLink to="/" className="rmv"> Keluar</NavLink></span></p>
                 </div>
                 <div className="box-teks border-bottom-grey">
                     <p className="t-name-account remove-btm">Pusat Bantuan</p>

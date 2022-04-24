@@ -44,3 +44,74 @@
     border-radius: 10px;
     color: white;
 }
+
+.t-detail-pdt-sub{
+    font-weight: 400;
+}
+
+.t-detail-pdt{
+    font-weight: 600;
+    font-size: 16px;
+}
+.box-detail-pdt{
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
+    border: 1px solid #e2e2e2 !important;
+    margin: 10px;
+    border-radius: 10px;
+    height: 100%;
+    margin-bottom: 10px;
+    background-color: rgb(240, 240, 240);
+}
+.box-sub-pdt{
+    background-color: white;
+    padding: 10px 20px 10px 20px;
+}
+.box-sub-service{
+    background-color: #E8F6F7;
+    padding: 10px 20px 10px 20px;
+}
+.t-size-14{
+    font-size: 14px;
+}
+.t-size-13{
+    font-size: 13px;
+}
+.float-right{
+    float: right;
+}
+.t-main-detail{
+    font-weight: 600;
+}
+.t-bold-500{
+    font-weight: 500;
+}
+.m-top{
+    margin-top: 10px;
+}
+@media only screen and (max-width: 600px) {
+    .box-detail-pdt {
+        margin: 0px;
+        border-radius: 0px;
+        margin-bottom: 10px;
+    }
+    .box-img-product {
+        width: 100%;
+        border-radius: 0px;
+        margin: 0px;
+    }
+    .img-detail-product{
+        border-radius: 0px;
+    }
+}
+.m-l-10{
+    margin-right: 10px;
+}
+.price-center{
+    height: 100px;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.t-shipment-popup{
+    padding: 0px 10px 0px 10px;
+}

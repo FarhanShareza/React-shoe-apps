@@ -1,6 +1,6 @@
 .footer{
-    background-color: #111;
-    color: white;
+    background-color: #E1E1E1;
+    color: #333;
     padding: 25px;
     
     .box-logo{
@@ -9,13 +9,13 @@
     }
     .t-logo{
         font-size: 30px;
-        margin: 0px 20px 0px 20px;
+        margin: 0px 20px 10px 20px;
         text-align: left;
-        color: white;
+        color:  #333;
     }
     .t-sub-logo{
         font-size: 12px;
-        margin: 0px 20px 0px 20px;
+        margin: 0px 20px 20px 20px;
     }
     .box-support{
         border-left: 2px solid rgb(255, 81, 0);
@@ -23,24 +23,24 @@
     }
     .t-support{
         font-size: 18px;
-        font-weight: bold;
-        margin: 0px 20px 0px 20px;
-        color: white;
+        font-weight: 400;
+        margin: 0px 20px 10px 20px;
+        color:  #333;
     }
     .t-sub-support{
         font-size: 14px;
-        margin: 0px 20px 0px 20px;
-        color: white;
+        margin: 0px 20px 10px 20px;
+        color:  #333;
     }
     .box-sosial-media{
         border-left: 2px solid rgb(255, 81, 0);
         margin-top: 10px;
     }
     .t-sosial-media{
-        color: white;
-        font-weight: bold;
+        color: #333;
+        font-weight: 400;
         font-size: 18px;
-        margin: 0px 20px 0px 20px;
+        margin: 0px 20px 10px 20px;
     }
     .t-sub-sosial-media{
         font-size: 12px;
@@ -52,15 +52,25 @@
         margin: 0px 20px 0px 20px;
     }
     .sub-icon-ms{
-        font-size: 20px;
+        font-size: 30px;
         margin-right: 20px;
+        color: rgb(150, 150, 150);
     }
     .box-copyright{
-        border-top: 1px solid rgb(48, 48, 48);
+        border-top: 1px solid rgb(199, 199, 199);
     }
     .t-copyright{
         font-size: 10px;
         text-align: center;
+    }
+    .t-link-support{
+        text-decoration: none;
+        color: #333;
+        padding: 0px;
+        font-size: 12px;
+    }
+    .logo-upkeep-footer{
+        width: 125px;
     }
 }
 

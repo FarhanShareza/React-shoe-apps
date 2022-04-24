@@ -1,18 +1,21 @@
-import React from 'react'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import React, { useContext } from 'react'
+import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom'
 import { DetailOrder, OrderConfirm, OrderReturn, OrderPickup } from '..'
 import { Gap } from '../../../components'
 import Footer from '../../../components/molecules/Courier/Footer'
 import Header from '../../../components/molecules/Courier/Header'
+import { AuthContext } from '../../../config/Routes'
 import './mainAppCourier.scss'
 
 const MainAppCourier = () => {
+    const {state} = useContext(AuthContext)
+
     return (
         <div className="wrapper">
             <div className="header-wrapper">
                 <Header/>
             </div>
-            <Gap height={55}/>
+            <Gap height={75}/>
             <div className="content-wrapper">
                 <Router>
                     <Switch>

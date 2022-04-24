@@ -1,10 +1,12 @@
 .main-page-login{
     display: flex;
-    height: 100vh;
+    height: 100%;
     box-sizing: border-box;
-    background-color: rgb(245, 245, 245);
 }
 .t-link-login{
     float: right;
     font-size: 12px;
+}
+.logo-upkeep-login{
+    width: 75px;
 }

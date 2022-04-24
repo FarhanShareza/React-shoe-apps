@@ -11,14 +11,16 @@ import { IoInformationCircleOutline, IoLogOutOutline, IoCartOutline, IoNotificat
 import { Profileuser } from '../../../assets';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './header.scss'
+import { useHistory } from 'react-router-dom';
 
 
 const Header = () => {
+    const history = useHistory()
     return (
         <div className="index-header">
             <Navbar bg="black" variant="dark" expand={false}>
                 <Container>
-                    <Navbar.Brand href="#">UPKEEP</Navbar.Brand>
+                    <Navbar.Brand>UPKEEP</Navbar.Brand>
                     <Nav className="me-auto nav-navbar">
                         <div className="icon-nav-navbar"><IoCartOutline/></div>
                         <div className="icon-nav-navbar"><IoNotificationsOutline/></div>

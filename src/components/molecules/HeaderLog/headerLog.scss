@@ -10,3 +10,55 @@
     border-radius: 10px;
     font-weight: bold;
 }
+.logo-upkeep{
+    width: 200px;
+}
+.navbar{
+    border-bottom: 1px solid rgb(255, 255, 255);
+    background-color: white;
+    color: black;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 8%);
+}
+.icon-navbar{
+    color: rgb(90, 90, 90);
+    font-size: 18px;
+}
+.text-navbar{
+    font-size: 16px;
+    padding: 2px;
+    color: rgb(70, 70, 70);
+    text-decoration: none;
+    margin-right: 15px;
+}
+.navbar-light .navbar-toggler {
+    border-color: white;
+}
+.navbar-toggler {
+    line-height: 2;
+}
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0;
+}
+.t-activities {
+    font-weight: 400;
+}
+.t-left{
+    float: left;
+    font-size: 18px;
+    color: rgb(100, 100, 100);
+}
+.t-right{
+    margin-left: 5px;
+    font-size: 15px;
+    font-weight: 200;
+    text-decoration: none;
+    color: #333;
+}
+@media screen and (max-width: 600px) {
+    .logo-upkeep{
+        width: 150px;
+    }
+    .navbar{
+        height: 75px;
+    }
+}

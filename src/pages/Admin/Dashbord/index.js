@@ -1,15 +1,18 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { Gap } from '../../../components'
 import { Container, Row, Col } from 'react-bootstrap' 
 import { AiOutlineInbox } from 'react-icons/ai'
 import './dashbord.scss'
+import { AuthContext } from '../../../config/Routes'
 
 const Dashbord = () => {
+    const {state} = useContext(AuthContext)
+    
     return (
         <div>
             <Gap height={70}/>
             <div className="t-box-admin">
-                <p>Dashbord</p>
+                <p>Dashbord Hai, Farhan Syahreza</p>
             </div>
             <Container>
                 <Row>

@@ -2,3 +2,27 @@
     font-size: 16px;
     font-weight: bold;
 }
+.before-after-slider__delimiter {
+    position: absolute;
+    height: 100%;
+    background: #fff;
+    width: 2px !important;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px 0px rgba(52, 59, 68, 0.5), -12px 0 8px -4px rgba(52, 59, 68, 0.5);
+}
+.before-after-slider__delimiter-icon {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 0px rgb(52 59 68 / 50%);
+}
+.t-ba-home{
+    font-size: 35px;
+    font-weight: 300;
+    text-align: center;
+}

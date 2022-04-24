@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useHistory } from 'react-router-dom'
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import { Navbar, Nav, NavDropdown, Container } from 'react-bootstrap';
@@ -40,6 +41,7 @@ const SidebarWrap = styled.div`
 `;
 
 const Sidebar = () => {
+  const history = useHistory()
   const [sidebar, setSidebar] = useState(true);
   const showSidebar = () => setSidebar(!sidebar);
 
@@ -54,7 +56,7 @@ const Sidebar = () => {
           <NavDropdown title="Hi. Farhan Syahreza" id="collasible-nav-dropdown">
           <NavDropdown.Item href="#action/3.3">Change Password</NavDropdown.Item>
             <NavDropdown.Divider />
-            <NavDropdown.Item href="#action/3.1">Log Out</NavDropdown.Item>
+            <NavDropdown.Item>Log Out</NavDropdown.Item>
           </NavDropdown>
         </Nav>
       </Navbar.Collapse>

@@ -5,7 +5,7 @@ const InputColloum = ({label, ...rest}) => {
     return (
         <div className="row-box-inputc">
             <div class="col-100-inpc">
-                <p className="remove-btm">{label}<span><input className="input-colloum span-teks" {...rest} /></span></p>
+                <p className="remove-btm">{label}<span><input className="input-colloum span-teks" {...rest} disabled/></span></p>
             </div>
         </div>
     )
